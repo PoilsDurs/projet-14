@@ -1,0 +1,141 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #FEFEFC;
+}
+.titre{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.barnav{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 0;
+    filter: drop-shadow(0.5rem 0.2rem 1rem #201f1f9e);
+    background: #fff none repeat scroll 0 0;
+}
+.couleur{
+    background-color: #FEFEFC !important;
+}
+.logoBarNav{
+    display: flex;
+    justify-content: center;
+    margin-left: 100%;
+    position: absolute;
+}
+.red{
+    border-color: #EEC66C;
+}
+.red:hover{
+    background-color: #EEC66C;
+    border-color: #201F1F;
+}
+.textB{
+    width: 175%;
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 10%;
+}
+.achat{
+    border-color: #850606;
+    margin-top: 10%;
+}
+.label{
+    margin-top: 5%;
+}
+.textD{
+    width: 30%;
+    border: 1px solid #c2c2c2;
+    font-family: Exo-Regular;
+    box-sizing: border-box;
+    text-align: center;
+}
+.textC{
+    margin-top: 5%;
+}
+.textE{
+    size: 50px;
+}
+.plusMoins{
+    color: #201F1F;
+    text-align: center;
+    padding: 0 5px 0.5rem 5px;
+    font-size: 1rem;
+    width: 3rem;
+}
+.gold{
+    border-color: #EEC66C;
+    justify-content: center;
+}
+.gold:hover{
+    background-color: #EEC66C;
+    border-color: black;
+}
+.centre{
+    display: flex;
+    justify-content: center;
+}
+.carousel-control-next-icon {
+    background-color: #201F1F;
+    border-radius: 15px;
+}
+.carousel-control-next-icon:hover {
+    background-color: #201F1F;
+    border-radius: 15px;
+}
+.carousel-control-prev-icon {
+    background-color: #201F1F;
+    border-radius: 15px;
+}
+.carousel-control-prev-icon:hover {
+    background-color: #201F1F;
+    border-radius: 15px;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+    margin-left: 1%;
+    border-color: #EEC66C;
+}
+.shop:hover {
+    border-color: #201F1F;
+    background-color: #EEC66C;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+h1{
+    font-size: 115%;
+    font-style: large;
+    font-weight: bolder;
+    width: 180%;
+}
+.detailleTitre{
+    padding-top: 4%;
+    border-top: 1px solid black;
+}
+.detailleTexte p{
+    margin: 0 !important;
+}
+.copyright{
+    background-color: #201F1F;
+    margin-bottom: 0% !important;
+    padding-bottom: 1.5em;
+    justify-content: center;
+    display: flex;
+    margin-top: 2%;
+}
+.copyright p{
+    padding-top: 1.5em;
+    justify-content: center;
+    display: flex;
+    background-color: #201F1F;
+    color: #FEFEFC;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    margin-right: 192px;
+}

@@ -1,0 +1,121 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #FEFEFC;
+}
+.barnav{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 0;
+    filter: drop-shadow(0.5rem 0.2rem 1rem #201f1f9e);
+    background: #fff none repeat scroll 0 0;
+}
+.couleur{
+    background-color: #FEFEFC !important;
+}
+.textCarousel p{
+  color: #EEC66C;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+h5{
+    color: #EEC66C;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.clique{
+    justify-content: center;
+    margin-bottom: 4.2%;
+    width: 35%;
+    border-color: #EEC66C;
+    font-weight: bold;
+    text-decoration: #EEC66C;
+    color: #FEFEFC;
+}
+.clique:hover{
+    background-color: #EEC66C;
+    border-color: black;
+}
+.red{
+    border-color: #EEC66C;
+}
+.red:hover{
+    background-color: #EEC66C;
+    border-color: #201F1F;
+}
+.red2{
+  background-color: #886262;
+  border-color: #886262;
+}
+.red2:hover{
+  background-color: #850606;
+  border-color: #850606;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+    margin-left: 1%;
+    border-color: #EEC66C;
+}
+.shop:hover {
+    border-color: #201F1F;
+    background-color: #EEC66C;
+}
+.carte{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.titre{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.imageCaroussel{
+    height: auto;
+    width: 100%;
+}
+.about{
+    justify-items: center;
+    text-align: center;
+}
+.contact{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    justify-content: center;
+    display: flex;
+    padding-top: 4%;
+    border-top: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.gold{
+    border-color: #EEC66C;
+    justify-content: center;
+    margin-left: 22%;
+}
+.gold:hover{
+    background-color: #EEC66C;
+    border-color: black;
+}
+.form-check-input:checked {
+    background-color: #EEC66C;
+    border-color: black;
+}
+.copyright{
+    background-color: #201F1F;
+    margin-bottom: 0% !important;
+    padding-bottom: 1.5em;
+    justify-content: center;
+    display: flex;
+}
+.copyright p{
+    padding-top: 1.5em;
+    justify-content: center;
+    display: flex;
+    background-color: #201F1F;
+    color: #FEFEFC;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    margin-right: 192px;
+}
